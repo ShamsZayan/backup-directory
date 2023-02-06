@@ -42,7 +42,7 @@ Last but not least, we check if number of backups exceed maximum number of backu
   crontab -l
   ```
 
-  Screenshot from 2022-10-18 21-35-07.png
+ ![alt text] Screenshot from 2022-10-18 21-35-07.png
 
   thats mean there is no files so you should create one by this command
   
