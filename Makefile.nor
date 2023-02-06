@@ -1,0 +1,10 @@
+.PHONY: create do_script 
+all: create do_script 
+
+create:
+	@ if [ ! -d ~/Desktop/6854-lab2/backupdir ]; then \
+	mkdir backupdir; \
+	fi
+	
+do_script: 
+	@ ./backupd.sh ~/Desktop/6854-lab2/dir ~/Desktop/6854-lab2/backupdir 2 5
